@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="20dp"
+    app:cardCornerRadius="15dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    tools:context=".HomeActivity"
+    app:cardElevation="15dp">
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:src="@drawable/sanserif"
+                    android:scaleType="centerCrop"
+                    android:id="@+id/cart_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="223dp">
+
+                </ImageView>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:id="@+id/cart_product_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font_3"
+                android:text="NVN SMASH RANDOM"
+                android:textColor="@color/purple_200"
+                android:textSize="28dp">
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:paddingBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:background="@drawable/border"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:id="@+id/cart_product_price"
+                        android:layout_width="177dp"
+                        android:layout_height="wrap_content"
+                        android:maxWidth="270dp"
+                        android:fontFamily="@font/font"
+                        android:text="Giá: 212.000 đồng"
+                        android:textColor="@color/purple_200"
+                        android:textSize="15sp">
+
+                    </TextView>
+                    <TextView
+                        android:id="@+id/cart_product_category"
+                        android:layout_width="match_parent"
+                        android:fontFamily="@font/font"
+                        android:layout_height="wrap_content"
+                        android:maxWidth="270dp"
+                        android:textAlignment="textEnd"
+                        android:text="Giá: 212.000 đồng"
+                        android:textColor="@color/purple_200"
+                        android:textSize="15sp">
+                    </TextView>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

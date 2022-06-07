@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="15dp"
+    android:background="@color/purple_200"
+    android:layout_marginEnd="15dp"
+    tools:context=".CartActivity"
+    app:cardElevation="15dp">
+
+    <LinearLayout
+        android:background="@color/purple_200"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="20sp">
+
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="141dp"
+            android:src="@drawable/fontll">
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_marginLeft="20sp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/odercart_product_name"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="25sp"
+               android:text="Tên font dnjsndjnds"
+                android:layout_marginTop="40sp"
+
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:layout_marginTop="10sp"
+                android:id="@+id/ordercart_product_price"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:text="Tên font dnjsndjnds"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:visibility="invisible"
+                android:id="@+id/ordercart_product_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+
+

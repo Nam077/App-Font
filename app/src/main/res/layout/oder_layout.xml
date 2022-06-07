@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="15dp"
+    app:cardCornerRadius="15dp"
+    android:layout_marginEnd="15dp"
+    tools:context=".CartActivity"
+    app:cardElevation="15dp">
+<LinearLayout
+    android:background="#28B8CA"
+    android:padding="15dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="159dp"
+            android:layout_gravity="center"
+            android:src="@drawable/order_3">
+
+        </ImageView>
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="20dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+
+        android:padding="15dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:fontFamily="@font/font_3"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textSize="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:text="ĐƠN HÀNG"
+            android:textColor="#FF5722" />
+        <TextView
+            android:fontFamily="@font/font"
+            android:layout_marginLeft="18dp"
+            android:id="@+id/oder_name_admin"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:layout_marginTop="-20dp"
+            android:text="Họ và Tên: Nguyễn Văn Nam"
+            android:textColor="@color/purple_200" />
+        <TextView
+            android:fontFamily="@font/font"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/oder_email_admin"
+            android:textSize="18dp"
+            android:layout_marginTop="-10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:text="Email: Namnguyen177s@gmail.com"
+            android:textColor="@color/purple_200" />
+        <TextView
+            android:fontFamily="@font/font"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/oder_phone_admin"
+            android:textSize="18dp"
+            android:layout_marginTop="-10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:text="Số Điện thoại: 0337994575"
+            android:textColor="@color/purple_200" />
+        <TextView
+            android:fontFamily="@font/font"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/oder_time_admin"
+            android:textSize="18dp"
+            android:layout_marginTop="-10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:text="Thời Gian:"
+            android:textColor="@color/purple_200" />
+        <TextView
+            android:id="@+id/oder_add_admin"
+            android:fontFamily="@font/font"
+            android:layout_marginLeft="20dp"
+            android:textSize="18dp"
+            android:layout_marginTop="-10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:text="Địa Chỉ: Kỳ Đồng Kỳ anh Hà Tĩnh"
+            android:textColor="@color/purple_200" />
+        <TextView
+            android:id="@+id/oder_price_admin"
+            android:fontFamily="@font/font"
+            android:layout_marginLeft="20dp"
+            android:textSize="18dp"
+            android:layout_marginTop="-10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:text="Tổng Tiền: 3.000.000"
+            android:textColor="@color/purple_200" />
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>

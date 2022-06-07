@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "740079188037",
+    "firebase_url": "https://appbanfont.firebaseio.com",
+    "project_id": "appbanfont",
+    "storage_bucket": "appbanfont.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740079188037:android:a3f850ae7ae70093624b2c",
+        "android_client_info": {
+          "package_name": "com.example.appfont"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740079188037-hur7ftosk1idp22rr8j64897as17ktid.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh94Y0OCc2a_n2GLCm5rPkgQaTyiLnZl0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "740079188037-hur7ftosk1idp22rr8j64897as17ktid.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
